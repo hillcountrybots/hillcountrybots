@@ -6,7 +6,7 @@ Bee Cave / Texas Hill Country. Website: [hillcountrybots.com](https://hillcountr
 
 ## Tools on Apify
 
-Five live Actors. Run them in the [Apify Store](https://apify.com/hillcountrybots), download CSV or JSON, or call the API with your own token.
+Nine live Actors. Run them in the [Apify Store](https://apify.com/hillcountrybots), download CSV or JSON, or call the API with your own token. Python and Node examples live in [apify-seo-examples](https://github.com/hillcountrybots/apify-seo-examples).
 
 | Tool | What it does | Price | Store | Examples |
 |---|---|---|---|---|
@@ -15,8 +15,12 @@ Five live Actors. Run them in the [Apify Store](https://apify.com/hillcountrybot
 | [Bulk Domain Availability Checker](https://apify.com/hillcountrybots/domain-availability-checker) | Available or taken from official registry RDAP, plus registrar and expiry | $1 / 1,000 domains | [Store](https://apify.com/hillcountrybots/domain-availability-checker) | [Repo](https://github.com/hillcountrybots/domain-availability-checker) |
 | [Sitemap URL Extractor](https://apify.com/hillcountrybots/sitemap-url-extractor) | Every URL from XML sitemaps, nested indexes, and gzip | $0.50 / 1,000 URLs | [Store](https://apify.com/hillcountrybots/sitemap-url-extractor) | [Repo](https://github.com/hillcountrybots/sitemap-url-extractor) |
 | [Tech Stack Detector](https://apify.com/hillcountrybots/tech-stack-detector) | CMS, ecommerce, analytics, CDN, frameworks, 3,600+ technologies | $0.50 / 1,000 sites | [Store](https://apify.com/hillcountrybots/tech-stack-detector) | [Repo](https://github.com/hillcountrybots/tech-stack-detector) |
+| [Broken Link Checker](https://apify.com/hillcountrybots/broken-link-checker) | 404s, dead domains and redirect chains, with the page each broken link is on | $0.80 / 1,000 URLs | [Store](https://apify.com/hillcountrybots/broken-link-checker) | [Examples](https://github.com/hillcountrybots/apify-seo-examples) |
+| [Bulk SEO Metadata Extractor](https://apify.com/hillcountrybots/bulk-seo-metadata-extractor) | Title, meta description, canonical, Open Graph, H1 and JSON-LD types | $2 / 1,000 pages | [Store](https://apify.com/hillcountrybots/bulk-seo-metadata-extractor) | [Examples](https://github.com/hillcountrybots/apify-seo-examples) |
+| [Wayback Machine History](https://apify.com/hillcountrybots/wayback-history) | Snapshots, first and last seen dates, and archived URLs from official archive.org APIs | $1 / 1,000 rows | [Store](https://apify.com/hillcountrybots/wayback-history) | [Examples](https://github.com/hillcountrybots/apify-seo-examples) |
+| [Chrome Web Store Scraper](https://apify.com/hillcountrybots/chrome-web-store-scraper) | Users, rating, version, permissions and publisher company. No reviews or personal data | $1.50 / 1,000 extensions | [Store](https://apify.com/hillcountrybots/chrome-web-store-scraper) | [Examples](https://github.com/hillcountrybots/apify-seo-examples) |
 
-Prices were checked on the live Store on November 11, 2026. Failures are free on every tool.
+Prices were checked on the live Store on November 12, 2026. Failures are free on every tool.
 
 ## n8n community nodes
 
@@ -32,7 +36,7 @@ The node is free. You pay Apify for the runs, with your own token.
 ## How we work
 
 - Public URLs only. No logins, no scraping behind paywalls, no personal data.
-- Official or public sources where we can: Google PageSpeed Insights, IANA RDAP, robots.txt and XML sitemaps.
+- Official or public sources where we can: Google PageSpeed Insights, IANA RDAP, robots.txt and XML sitemaps, the Internet Archive APIs, and public Chrome Web Store pages allowed by robots.txt.
 - A predictable price per successful result. You can cap spend on every run.
 
 ## Contact
